@@ -1,3 +1,4 @@
+import { LoginComponent } from './page/login/login.component';
 import { FooterModule } from './../../projects/footer/src/lib/footer.module';
 import { HeaderModule } from './../../projects/header/src/lib/header.module';
 
@@ -8,22 +9,25 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './page/home/home.component';
-import { LoginComponent } from './page/login/login.component';
 import { DashboardComponent } from './page/dashboard/dashboard.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent,
     DashboardComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FooterModule,
     HeaderModule,
-    NgbModule
+    FooterModule,
+    ReactiveFormsModule,
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

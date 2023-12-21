@@ -1,3 +1,4 @@
+import { HeaderComponent } from './../../../../projects/header/src/lib/header.component';
 import { AuthService } from './../../service/auth.service';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';

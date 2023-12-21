@@ -1,0 +1,20 @@
+.dashboard-container {
+    display: grid;
+    grid-template-areas:  
+    'menu header header header header header'
+    'menu main main main main main'
+    'menu main main main main main'
+    ;
+}
+
+.header {
+    grid-area: header;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.main {
+    grid-area: main;
+}

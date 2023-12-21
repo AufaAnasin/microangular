@@ -1,3 +1,4 @@
+import { HeaderModule } from './../../../../projects/header/src/lib/header.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -7,7 +8,8 @@ import { CommonModule } from '@angular/common';
   declarations: [],
   imports: [
     CommonModule,
-    NgbModule
+    NgbModule,
+    HeaderModule
   ]
 })
 export class LoginModule { }
