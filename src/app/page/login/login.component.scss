@@ -1,0 +1,43 @@
+.illustration {
+    width: 650px;
+    height: auto;
+    margin-top: 40px;
+}
+
+
+.logintext {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 0 0;
+    row-gap: 20px;
+}
+
+.input-container input {
+    width: 620px;
+    height: 65px;
+    border: none;
+    outline: none;
+    background-color: #EFF0F2;
+    border-radius: 8px;
+    padding: 17px 0 17px 29px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.form-container button {
+    width: 620px;
+    height: 64px;
+    border-radius: 36px;
+    border: none;
+    background-color: #006EFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    margin-top: 60px;
+}
